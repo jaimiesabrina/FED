@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aanmelden</title>
+    <meta charset="UFT-8">
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Stages en projecten aanmelden" />
+    <meta name="author" content="Jaimie Droog" />
+    <meta name="keywords" content="zoekterm1, zoekterm2, ..." />
+    <!-- link href="style.css" media="screen" rel="stylesheet" type="text/css" / -->
+</head>
+<body>
+    <header>
+    	<nav></nav>
+    </header>
+    <section>
+        <header>
+            <h1>Aanmelden</h1>
+        </header>
+	    <article>
+            <p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+            Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+            <p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</p>
+
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+            Voor vragen of opmerkingen kunt u contact <a href="">contact</a>met ons op.</p>
+        </article>
+        
+        <form class="contactform" method="post" action="static/php/index.php">
+            <p>Contactgegevens:</p>
+            <input id="naam" name="name" placeholder="Naam">
+            <input id="bedrijf" name="name" placeholder="Bedrijf">
+            <input id="adres" name="name" placeholder="Adres">
+            <input id="postcode" name="name" placeholder="Postcode">
+            <input id="plaats" name="name" placeholder="Plaats">
+            <input id="telefoon" name="name" placeholder="Telefoon">
+            <input id="e-mail" name="name" type="email" placeholder="E-mail">
+        </form>
+
+        <form class="contactform" method="post" action="static/php/index.php">
+            <p>Ik wil mij aanmelden:</p>
+            <input id="submit" name="submit" type="submit" value="Voor een project">
+            <input id="submit" name="submit" type="submit" value="Als stagebedrijf">
+        </form>
+
+        <table>
+            <tr>
+                <th>Project</th>
+                <th>Stage</th>
+            </tr>
+            <tr>
+                <td>
+                    <ol>
+                        <li>Titel</li>
+                        <li>Opdrachtomschrijving</li>
+                        <li>Doelgroepomschrijving</li>
+                        <li>Doelstelling/intentie van het project</li>
+                        <li>Looptijd</li>
+                        <li>Deadline</li>
+                    </ol>
+                </td>
+                <td>
+                    <p>Geschikt voor</p>
+                    <ol>
+                        <li>tweedejaarsstudenten</li>
+                        <li>afstudeerstudenten</li>
+                        <li>onbekend</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Geschikt voor</p>
+                    <ol>
+                        <li>eerstejaarsstudenten</li>
+                        <li>tweedejaarsstudenten</li>
+                        <li>derdejaarsstudenten</li>
+                        <li>afstudeerstudenten</li>
+                        <li>onbekend</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol>
+                        <li>Hoe lang is de stage?
+                            <ul>
+                                <li>10 weken</li>
+                                <li>20 weken</li>
+                            </ul>
+                        </li>
+                        <li>Begin datum</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p>Beschrijving werkzaamheden:</p>
+                    <ol>
+                        <li>Beschrijvingstagewerkzaamheden</li>
+                    </ol>
+                </td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td>
+                    <p>Beschrijving stagebedrijf</p>
+                    <ol>
+                        <li>Bedrijfsnaam</li>
+                        <li>Adres</li>
+                        <li>postcode</li>
+                        <li>Plaats</li>
+                        <li>Sector</li>
+                        <li>CoreBusiness</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Opmerkingen</p>
+                </td>
+                <td>
+                    <p>Opmerkingen</p>
+                </td>
+            </tr>  
+        </table>
+    </section>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>
